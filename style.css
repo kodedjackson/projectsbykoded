@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,900;1,200&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,900;1,200&display=swap');
+}
+
+:root {
+    --blue-color: blue;
+    --white-color: color;
+    --grey-color:#4D5154;
+    --dark-grey: #212529;
+}
+
+body{
+    background: url('bg.webp'), rgba(0,0,0, 0.9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    color: white;
+    overflow: scroll;
+    height: 100vh;
+}
+
+main .intro{
+    display: flex;
+}
+
+main section .intro img{
+    margin-top: -60px;
+    margin-right: -30px;
+    height: 450px;
+
+}
+
+main section .intro .name{
+    margin: 90px 90px;
+
+}
+
+main section .intro .name img{
+    width: 20px;
+    height: 20px;
+    font-size: 42px;
+    margin: 0px 1px ;
+}
+
+main section .intro h1{
+    font-size: 32px;
+    font-weight: 200;
+}
+main section .intro span{
+    padding: 0;
+}
+
+main section .intro p{
+    font-size: 9px;
+    padding: 10px 0px;
+}
+
+main section .intro .name button{
+    padding: 5px;
+    background-color: rgba(0,0,0 ,0.9);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main .stack{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--dark-grey);
+    width: 80%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: auto;
+}
+
+main .stack img{
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+main .stack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        box-shadow: 5px 5px 5px #4D5154,
+                    -5px -5px 2px #4D5154;      
+}
+
+main .stack label{
+    font-size: 12px;
+    color: #4D5154;
+}
+
+span{
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #4D5154;
+    color: white;
+}
+
+main .latest-projects{
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .latest-projects .projects{
+    text-align: center;
+    display: flex;
+    margin: 30px 70px;
+    padding: 20px 20px;
+    background-color: #4D5154;
+    border-radius: 15px;
+
+}
+
+main .latest-projects .projects img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+main .latest-projects .projects p{
+    font-size: 9px;
+    padding: 5px;
+    text-align: justify;
+    margin: 0 0 0 50px;
+}
